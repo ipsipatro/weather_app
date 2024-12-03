@@ -19,7 +19,7 @@ This project follows the Clean Architecture pattern, ensuring a separation of co
 
 - Data
   Responsible for fetching data from APIs and mapping it to domain models.
-  Includes the repository implementations and data sources (e.g., REST API).
+  Includes the repository implementations and data sources.
 
 - Presentation
   Includes UI screens and widgets built using Flutter.
