@@ -7,7 +7,6 @@ import 'package:weather_app/features/weather/presentation/pages/weather_page.dar
 
 void main() {
   setup();
-
   runApp(const MyApp());
 }
 
