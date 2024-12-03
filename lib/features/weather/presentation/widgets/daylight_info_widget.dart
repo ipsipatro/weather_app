@@ -48,7 +48,7 @@ class DaylightInfoWidget extends StatelessWidget {
                       Align(
                         alignment: Alignment.topLeft,
                         child: Padding(
-                          padding: const EdgeInsets.only(left: 30),
+                          padding: const EdgeInsets.only(left: 40),
                           child: Text(
                             AppStrings.sunrise,
                             style: Theme.of(context).textTheme.bodySmall,
@@ -58,7 +58,7 @@ class DaylightInfoWidget extends StatelessWidget {
                       Align(
                         alignment: Alignment.topLeft,
                         child: Padding(
-                          padding: const EdgeInsets.only(left: 22, top: 15),
+                          padding: const EdgeInsets.only(left: 34, top: 15),
                           child: Text(
                             sunriseTimeString,
                             style: CustomTextStyles.bodySmallGray50012,
@@ -75,7 +75,7 @@ class DaylightInfoWidget extends StatelessWidget {
                       Align(
                         alignment: Alignment.topRight,
                         child: Padding(
-                          padding: const EdgeInsets.only(right: 34),
+                          padding: const EdgeInsets.only(right: 44),
                           child: Text(
                             AppStrings.sunset,
                             style: Theme.of(context).textTheme.bodySmall,
@@ -85,7 +85,7 @@ class DaylightInfoWidget extends StatelessWidget {
                       Align(
                         alignment: Alignment.topRight,
                         child: Padding(
-                          padding: const EdgeInsets.only(right: 24, top: 16),
+                          padding: const EdgeInsets.only(right: 34, top: 16),
                           child: Text(
                             sunsetTimeString,
                             style: CustomTextStyles.bodySmallGray50012,

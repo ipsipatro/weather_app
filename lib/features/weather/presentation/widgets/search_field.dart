@@ -21,6 +21,8 @@ class SearchField extends StatelessWidget {
         children: [
           Expanded(
             child: TextField(
+              cursorHeight: 16.0,
+              cursorColor: AppPallete.blueGray900,
               controller: searchController,
               decoration: const InputDecoration(
                 hintText: AppStrings.searchLocation,

@@ -5,7 +5,7 @@ class AppStrings {
   static const String remainingDaylight = 'Remaining Daylight: ';
   static const String sunrise = 'Sunrise';
   static const String sunset = 'Sunset';
-  static const String searchLocation = 'Search location';
+  static const String searchLocation = 'Search Location';
   static const String time = 'Time';
   static const String uv = 'UV';
   static const String rain = '% Rain';

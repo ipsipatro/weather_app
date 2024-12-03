@@ -17,6 +17,7 @@ class AppTheme {
       hintStyle: const TextStyle(
         color: AppPallete.gray400,
         fontSize: 15,
+        fontWeight: FontWeight.w400,
       ),
       contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       suffixIconColor: AppPallete.gray400,
